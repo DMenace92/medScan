@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow medScan to access camera."
+        }
+      ]
+    ],
     "name": "medScan",
     "slug": "medScan",
     "version": "1.0.0",

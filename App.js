@@ -18,7 +18,7 @@ export default function App() {
     <Stack.Navigator>
       <Stack.Screen name="test window" component={Main}/>
 
-      <Stack.Screen name="test window1" component={Scanner}/>
+      {/* <Stack.Screen name="test window1" component={Scanner}/> */}
 
     </Stack.Navigator>
 
